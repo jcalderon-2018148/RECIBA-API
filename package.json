@@ -1,0 +1,35 @@
+{
+  "name": "reciba",
+  "version": "1.0.0",
+  "description": "Proyecto recicladora final 4to Bimestre 2023.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IN6AV-ThePA-s/RECIBA.git"
+  },
+  "author": "IN6AV-ThePAs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IN6AV-ThePA-s/RECIBA/issues"
+  },
+  "homepage": "https://github.com/IN6AV-ThePA-s/RECIBA#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.1",
+    "morgan": "^1.10.0",
+    "sweetalert2": "^11.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
